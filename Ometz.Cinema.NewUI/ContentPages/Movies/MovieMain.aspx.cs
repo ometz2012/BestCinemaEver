@@ -106,6 +106,11 @@ namespace Ometz.Cinema.NewUI.ContentPages.Movies
             string path=string.Format("~/ContentPages/Movies/Movie.aspx?MovieID={0}",movieID);
             Response.Redirect(path);
         }
+
+        protected void RepeaterMovie_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+
+        }
     }
 
     

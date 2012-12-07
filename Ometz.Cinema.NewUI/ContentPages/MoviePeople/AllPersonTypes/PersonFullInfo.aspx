@@ -3,7 +3,7 @@
     <style type="text/css">
         .style1
         {
-            width: 100%;
+            width: 84%;
         }
           .style14
         {       
@@ -11,18 +11,17 @@
             font-weight: bold;
             font-size:large;
         }
-        .style15
-        {
-            width: 243px;
-        }
         .style16
         {
             width: 243px;
-            height: 25px;
-        }
+            }
         .style17
         {
-            height: 25px;
+            width: 126px;
+        }
+        .style19
+        {
+            width: 560px;
         }
     </style>
  
@@ -34,63 +33,44 @@ Person's Full Information
     <table class="style1">
         <tr>
             <td class="style16">
-                <asp:Label ID="lblFirstName" runat="server" CssClass="bold" Text="First Name:"></asp:Label>
+                <asp:Image ID="ImgPersonPhoto" runat="server" 
+                    AlternateText="Picture Is Not Available Yet" Height="250px" 
+                    Width="280px" />
             </td>
             <td class="style17">
                 </td>
-            <td class="style17">
+            <td class="style19">
+                <table class="style1">
+                    <tr>
+                        <td>
                 <asp:Label ID="lblOccupation" runat="server" CssClass="bold" 
                     Text="Occupation: "></asp:Label>
-            </td>
-            <td class="style17">
-                </td>
-        </tr>
-        <tr>
-            <td class="style15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                <asp:Label ID="lblFirstName" runat="server" CssClass="bold" Text="First Name:"></asp:Label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                 <asp:Label ID="lblLastName" runat="server" CssClass="bold" Text="Last Name:"></asp:Label>
-            </td>
-            <td>
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-        </tr>
-        <tr>
-            <td class="style15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                 <asp:Label ID="lblBirthPlace" runat="server" CssClass="bold" 
                     Text="Birth Place:"></asp:Label>
-            </td>
-            <td>
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-        </tr>
-        <tr>
-            <td class="style15">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
                 <asp:Label ID="lblBirthDate" runat="server" CssClass="bold" 
                     Text="Date Of Birth:"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
             </td>
-            <td>
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
         </tr>
-        <tr>
-            <td class="style15">
-                &nbsp;</td>
-            <td>
-                &nbsp;</td>
-            <td>
-                <asp:Image ID="ImgPersonPhoto" runat="server" 
-                    AlternateText="Picture Is Not Available Yet" Height="200px" Width="160px" />
-            </td>
-            <td>
-                &nbsp;</td>
-        </tr>
-    </table>
+        </table>
 </asp:Content>

@@ -16,24 +16,28 @@
     {
         width: 290px;
     }
+    .style4
+    {
+        width: 356px;
+    }
 </style>
 
 <p>
     &nbsp;</p>
 <table class="style1">
     <tr>
-        <td class="style2">
+        <td class="style4">
             <asp:Label ID="lblSearchByMovieName" runat="server" CssClass="bold"></asp:Label>
         </td>
         <td class="style3">
             <asp:Label ID="lblChoseMoviePeople" runat="server" CssClass="bold" 
-                Text="Chose Movie Person "></asp:Label>
+                Text="Select a Person Type  at First .."></asp:Label>
         </td>
         <td>
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="style2">
+        <td class="style4">
             <asp:GridView ID="gridMovies" runat="server" AutoGenerateColumns="False" 
                 DataKeyNames="MovieID" DataSourceID="SqlDataSourceCinema">
                 <Columns>
@@ -68,7 +72,7 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="style2">
+        <td class="style4">
             &nbsp;</td>
         <td class="style3">
             &nbsp;</td>
@@ -76,7 +80,7 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="style2">
+        <td class="style4">
             <asp:Label ID="lblSearchByPersonName" runat="server" CssClass="bold"></asp:Label>
         </td>
         <td class="style3">
@@ -85,7 +89,7 @@
             &nbsp;</td>
     </tr>
     <tr>
-        <td class="style3">
+        <td class="style4">
             <asp:TextBox ID="txtSearchPersonByName" runat="server" 
                 ontextchanged="txtSearchPersonByName_TextChanged"></asp:TextBox>
             <asp:Button ID="btnSearch" runat="server" onclick="btnSearch_Click" 

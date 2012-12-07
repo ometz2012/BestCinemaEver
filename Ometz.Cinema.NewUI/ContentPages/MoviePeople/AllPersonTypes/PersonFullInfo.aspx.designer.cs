@@ -13,13 +13,13 @@ namespace Ometz.Cinema.NewUI.ContentPages.MoviePeople.Actors {
     public partial class PersonFullInfo {
         
         /// <summary>
-        /// lblFirstName control.
+        /// ImgPersonPhoto control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblFirstName;
+        protected global::System.Web.UI.WebControls.Image ImgPersonPhoto;
         
         /// <summary>
         /// lblOccupation control.
@@ -29,6 +29,15 @@ namespace Ometz.Cinema.NewUI.ContentPages.MoviePeople.Actors {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblOccupation;
+        
+        /// <summary>
+        /// lblFirstName control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblFirstName;
         
         /// <summary>
         /// lblLastName control.
@@ -56,14 +65,5 @@ namespace Ometz.Cinema.NewUI.ContentPages.MoviePeople.Actors {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblBirthDate;
-        
-        /// <summary>
-        /// ImgPersonPhoto control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Image ImgPersonPhoto;
     }
 }

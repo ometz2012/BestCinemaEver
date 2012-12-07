@@ -35,8 +35,17 @@
         <td class="style2">
             &nbsp;</td>
         <td class="style3">
-            <asp:Label ID="lblPersonInMovie" runat="server" CssClass="bold"></asp:Label>
+            <asp:Label ID="lblPersonInMovie" runat="server" CssClass="bold"> </asp:Label>
+          
         </td>
+        <td>
+            &nbsp;</td>
+    </tr>
+    <tr>
+        <td class="style2">
+            &nbsp;</td>
+        <td class="style3">
+            &nbsp;</td>
         <td>
             &nbsp;</td>
     </tr>

@@ -46,7 +46,8 @@
     <br />
     
     <asp:Repeater runat="server" id="RepeaterMovie"  
-        onitemcreated="RepeaterMovie_ItemCreated" > 
+        onitemcreated="RepeaterMovie_ItemCreated" 
+        onitemcommand="RepeaterMovie_ItemCommand" > 
      
      <HeaderTemplate> 
         <table>
