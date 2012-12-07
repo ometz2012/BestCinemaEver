@@ -19,9 +19,14 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p class="style14">
-Movie People
-<br /></p>
+  
+    <h2>
+    <br />
+    Movie People
+    <br />
+    </h2>
+
+
     <uc1:MainMoviePeople ID="MainMoviePeople1" runat="server" />
     <table class="style1">
         <tr>

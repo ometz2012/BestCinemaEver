@@ -158,9 +158,12 @@ namespace Ometz.Cinema.UI.ContentPages.Users.MyAreaMVP
 
             if (checkIntCommentID)
             {
-                if (TreeViewUpdateDelete != null)
+                if (txtCommentContent.Text.Length < 0 && txtMovieTitle.Text.Length < 0)
                 {
-                    TreeViewUpdateDelete(tua);
+                    if (TreeViewUpdateDelete != null)
+                    {
+                        TreeViewUpdateDelete(tua);
+                    }
                 }
             }
             if (Model.IsValidTransastion == true)
@@ -187,9 +190,12 @@ namespace Ometz.Cinema.UI.ContentPages.Users.MyAreaMVP
 
             if (checkIntCommentID)
             {
-                if (TreeViewUpdateDelete != null)
+                if (txtMovieTitle.Text.Length > 0)
                 {
-                    TreeViewUpdateDelete(tua);
+                    if (TreeViewUpdateDelete != null)
+                    {
+                        TreeViewUpdateDelete(tua);
+                    }
                 }
             }
             if (Model.IsValidTransastion == true)
